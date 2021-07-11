@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7f6283-066d-4243-a676-4bdd37814030" name="Default Changelist" comment="Convolutional and pooling layers demo">
-      <change afterPath="$PROJECT_DIR$/Week1/1.4 Compile method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/1.5 Fit method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TensorFlow_Tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TensorFlow_Tutorial.iml" afterDir="false" />
+    <list default="true" id="6d7f6283-066d-4243-a676-4bdd37814030" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/1.Sequential_Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/1.1 Sequential_Model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,13 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625918891992</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Compile and Fit method demo">
+      <created>1625961117018</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625961117018</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello TensorFlow!" />
     <MESSAGE value="Sequential model intro" />
     <MESSAGE value="Convolutional and pooling layers demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Convolutional and pooling layers demo" />
+    <MESSAGE value="Compile and Fit method demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compile and Fit method demo" />
   </component>
 </project>
