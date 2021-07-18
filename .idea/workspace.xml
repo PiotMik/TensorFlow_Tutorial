@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d7f6283-066d-4243-a676-4bdd37814030" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Week2/2.2 Model regularisation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/1.Sequential_Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/1.1 Sequential_Model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1usIL74enTWGnpJQmrHCrdu0JiO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,10 +67,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\piter\Python Scripts\TensorFlow_Tutorial" />
       <recent name="C:\Users\admin\Desktop\piter\Python Scripts\TensorFlow_Tutorial\Week1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1.4 Compile method">
+  <component name="RunManager" selected="Python.1.7 Assignment">
     <configuration name="1.2 Building a sequential model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TensorFlow_Tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,8 +114,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="1.7 Assignment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TensorFlow_Tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week1/1.7 Assignment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1.7 Assignment" />
         <item itemvalue="Python.1.4 Compile method" />
         <item itemvalue="Python.1.2 Building a sequential model" />
       </list>
@@ -155,14 +180,66 @@
       <option name="project" value="LOCAL" />
       <updated>1625961117018</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rename file">
+      <created>1625963025225</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625963025225</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Evaluate demo">
+      <created>1625963312643</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625963312643</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Rename">
+      <created>1625963338190</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625963338190</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Week 1 Assignment - CNN Classifier for MNIST digit data">
+      <created>1625964805179</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1625964805179</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Week 2 folder initialization">
+      <created>1626647654632</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1626647654632</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello TensorFlow!" />
     <MESSAGE value="Sequential model intro" />
     <MESSAGE value="Convolutional and pooling layers demo" />
     <MESSAGE value="Compile and Fit method demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compile and Fit method demo" />
+    <MESSAGE value="Rename file" />
+    <MESSAGE value="Evaluate demo" />
+    <MESSAGE value="Rename" />
+    <MESSAGE value="Week 1 Assignment - CNN Classifier for MNIST digit data" />
+    <MESSAGE value="Week 2 folder initialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 2 folder initialization" />
   </component>
 </project>
