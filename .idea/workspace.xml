@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7f6283-066d-4243-a676-4bdd37814030" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week2/2.5 Logs dictionary.py" afterDir="false" />
+    <list default="true" id="6d7f6283-066d-4243-a676-4bdd37814030" name="Default Changelist" comment="Early stopping tutorial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/2.6 Early stopping and patience.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/2.6 Early stopping and patience.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +236,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627089775473</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Logs dictionary tutorial">
+      <created>1627132246064</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1627132246064</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Refactoring imports and common variables to 'course_utils'">
+      <created>1627142540011</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1627142540011</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +278,8 @@
     <MESSAGE value="Regularizers" />
     <MESSAGE value="Adding missed import" />
     <MESSAGE value="Callbacks tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Callbacks tutorial" />
+    <MESSAGE value="Logs dictionary tutorial" />
+    <MESSAGE value="Refactoring imports and common variables to 'course_utils'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring imports and common variables to 'course_utils'" />
   </component>
 </project>
