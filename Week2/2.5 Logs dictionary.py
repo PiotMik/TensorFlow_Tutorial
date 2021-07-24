@@ -4,18 +4,11 @@
 # You can use this information in various ways, from simply informing user by printing out a chosen metric,
 # up to even early stopping of training, when a certain condition involving metrics is met."""
 
+from course_utils import *
 import tensorflow as tf
-from sklearn.datasets import load_diabetes
-from sklearn.model_selection import train_test_split
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import (Dense, BatchNormalization)
+from tensorflow.keras.layers import BatchNormalization
 from tensorflow.keras.callbacks import Callback
 
-diabetes_dataset = load_diabetes()
-data = diabetes_dataset['data']
-targets = diabetes_dataset['target']
-
-train_data, test_data, train_targets, test_targets = train_test_split(data, targets)
 model = Sequential([
     Dense(128, activation='relu', input_shape=(train_data.shape[1],)),
     Dense(64, activation='relu'),
@@ -76,6 +69,7 @@ def get_new_epoch_lr(epoch, lr):
         return lr_schedule[epoch]
     else:
         return lr
+
 
 class LRScheduler(Callback):
 
