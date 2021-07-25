@@ -4,9 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7f6283-066d-4243-a676-4bdd37814030" name="Default Changelist" comment="Early stopping tutorial">
+    <list default="true" id="6d7f6283-066d-4243-a676-4bdd37814030" name="Default Changelist" comment="Saving and loading weights intro">
+      <change afterPath="$PROJECT_DIR$/Week2/2.1 Sequential Model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/2.2 Building a sequential model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/2.3 Convolutional and pooling layers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/2.4 Compile method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/2.5 Fit method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/2.6 Evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/2.7 Assignment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/3.1 Validation sets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/3.2 Model regularisation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/3.3 Batch normalization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/3.4 Callbacks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/3.5 Logs dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/3.6 Early stopping and patience.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/3.7 Additional callbacks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/3.8 Assignment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/4.1 Saving and loading weights.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210725/11_40_22_PM/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210725/11_40_22_PM/checkpoint.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210725/11_40_22_PM/checkpoint.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210725/11_42_06_PM/checkpoint.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/2.6 Early stopping and patience.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/2.6 Early stopping and patience.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/1.1 Sequential_Model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/1.2 Building a sequential model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/1.3 Convolutional and pooling layers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/1.4 Compile method.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/1.5 Fit method.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/1.6 Evaluate demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/1.7 Assignment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3/2.1 Validation sets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3/2.2 Model regularisation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3/2.3 Batch normalization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3/2.4 Callbacks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3/2.5 Logs dictionary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3/2.6 Early stopping and patience.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3/2.7 Additional callbacks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3/2.8 Assignment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/course_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +87,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/anaconda3/envs/Tensorflow" />
@@ -250,7 +286,28 @@
       <option name="project" value="LOCAL" />
       <updated>1627142540011</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Early stopping tutorial">
+      <created>1627142910833</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1627142910833</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Showcase examples of some other callbacks">
+      <created>1627162132118</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1627162132118</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Refactoring folder names to match course syllabus">
+      <created>1627238257304</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1627238257304</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +323,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Hello TensorFlow!" />
     <MESSAGE value="Sequential model intro" />
     <MESSAGE value="Convolutional and pooling layers demo" />
@@ -280,6 +338,10 @@
     <MESSAGE value="Callbacks tutorial" />
     <MESSAGE value="Logs dictionary tutorial" />
     <MESSAGE value="Refactoring imports and common variables to 'course_utils'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring imports and common variables to 'course_utils'" />
+    <MESSAGE value="Early stopping tutorial" />
+    <MESSAGE value="Showcase examples of some other callbacks" />
+    <MESSAGE value="Refactoring folder names to match course syllabus" />
+    <MESSAGE value="Saving and loading weights intro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Saving and loading weights intro" />
   </component>
 </project>

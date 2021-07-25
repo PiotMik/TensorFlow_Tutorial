@@ -1,5 +1,6 @@
 # Regularization
-# ToDo: Add description of regularization
+# Regularization is a collective of methods which allow one to
+# stabilize the training, and reduce the risk of over-fitting.
 
 from course_utils import *
 

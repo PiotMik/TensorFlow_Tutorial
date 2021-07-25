@@ -1,17 +1,23 @@
+import datetime
+
+import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras import regularizers
-from tensorflow.keras.layers import (Dense, Dropout)
+from tensorflow.keras.layers import (Dense, Dropout, Conv2D, MaxPooling2D, Flatten)
 from sklearn.datasets import load_diabetes
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import os
+from datetime import datetime
+
+# Week 3 utils:
+
 
 diabetes_dataset = load_diabetes()
 data = diabetes_dataset['data']
 targets = diabetes_dataset['target']
-
-train_data, test_data, train_targets, test_targets = train_test_split(data, targets)
 
 
 def get_model():
@@ -115,3 +121,50 @@ def plot_compare_metrics(history1, history2,
     plt.legend(['Training', 'Validation'], loc='upper right')
 
     plt.show()
+
+
+# Week 4 utils:
+
+
+train_data, test_data, train_targets, test_targets = train_test_split(data, targets)
+(x_train, y_train), (x_test, y_test) = tf.keras.datasets.cifar10.load_data()
+x_train = x_train / 255.0
+x_test = x_test / 255.0
+x_train = x_train[:10000]
+y_train = y_train[:10000]
+x_test = x_test[:1000]
+y_test = y_test[:1000]
+
+
+def get_test_accuracy(model, x, y):
+    test_loss, test_acc = model.evaluate(x=x, y=y, verbose=1)
+    print(f'Accuracy: {test_acc:0.3f}')
+
+
+def get_new_model():
+    model = Sequential([
+        Conv2D(filters=16, input_shape=(32, 32, 3), kernel_size=(3, 3),
+               activation='relu', name='conv_1'),
+        Conv2D(filters=8, kernel_size=(3, 3), activation='relu',
+               name='conv_2'),
+        MaxPooling2D(pool_size=(4, 4), name='pool_1'),
+        Flatten(name='flatten'),
+        Dense(units=32, activation='relu', name='dense_1'),
+        Dense(units=10, activation='relu', name='dense_2')
+    ])
+    model.compile(optimizer='adam',
+                  loss='sparse_categorical_crossentropy',
+                  metrics=['accuracy'])
+    return model
+
+
+def generate_checkpoint_path(filename: str = "checkpoint"):
+    base = os.getcwd()
+    now = datetime.now()
+    date_part = f"{now:%Y%m%d}"
+    time_part = f"{now:%I_%M_%S_%p}"
+    full_path = os.path.join(base, 'model_checkpoints', date_part, time_part)
+
+    if not os.path.exists(full_path):
+        os.makedirs(full_path)
+    return os.path.join(full_path, filename)
