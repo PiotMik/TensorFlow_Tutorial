@@ -12,15 +12,15 @@ for i in range(10):
     ax[i].imshow(x_train[i])
 
 
-def get_test_accuracy(model, x_test, y_test):
-    test_loss, test_acc = model.evaluate(x=x_test, y=y_test,
-                                         verbose=1)
+def get_test_accuracy(model_, x_test_, y_test_):
+    test_loss, test_acc = model_.evaluate(x=x_test_, y=y_test_,
+                                          verbose=1)
     print(f'Accuracy: {test_acc:0.3f}')
 
 
 def get_new_model():
-    model = Sequential([
-        Conv2D(filters=16, input_shape=(32, 32, 1), kernel_size=(3,3),
+    model_ = Sequential([
+        Conv2D(filters=16, input_shape=(32, 32, 1), kernel_size=(3, 3),
                activation='relu', name='conv_1'),
         Conv2D(filters=8, kernel_size=(3, 3), activation='relu',
                name='conv_2'),
@@ -29,10 +29,10 @@ def get_new_model():
         Dense(units=32, activation='relu', name='dense_1'),
         Dense(units=10, activation='relu', name='dense_2')
     ])
-    model.compile(optimizer='adam',
-                  loss='sparse_categorical_crossentropy',
-                  metrics=['accuracy'])
-    return model
+    model_.compile(optimizer='adam',
+                   loss='sparse_categorical_crossentropy',
+                   metrics=['accuracy'])
+    return model_
 
 
 model = get_new_model()

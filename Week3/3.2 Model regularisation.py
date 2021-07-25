@@ -6,7 +6,7 @@ from course_utils import *
 
 
 def get_regularized_model(wd, rate):
-    model = Sequential([
+    model_ = Sequential([
         Dense(128, activation='relu', kernel_regularizer=regularizers.l2(wd),
               input_shape=(train_data.shape[1],)),
         Dropout(rate),
@@ -22,7 +22,7 @@ def get_regularized_model(wd, rate):
         Dropout(rate),
         Dense(1)
     ])
-    return model
+    return model_
 
 
 model = get_regularized_model(1e-5, 0.1)
