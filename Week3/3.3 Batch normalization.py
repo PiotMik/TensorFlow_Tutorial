@@ -2,7 +2,6 @@
 # It is conceptually a re-normalization of activations between layer outputs.
 # Improves training speed and stability of the neural network.
 
-import tensorflow as tf
 from tensorflow.keras.layers import BatchNormalization
 from course_utils import *
 
