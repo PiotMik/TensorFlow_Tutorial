@@ -4,30 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7f6283-066d-4243-a676-4bdd37814030" name="Default Changelist" comment="Refactoring methods to be in line with the Python coding style">
-      <change afterPath="$PROJECT_DIR$/Week4/4.2 Model saving criteria.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/4.3 Saving entire model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/4.4 Saving model architecture only.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/4.5 Loading pre-trained Keras models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/4.6 Tensorflow Hub.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/01_59_58_AM/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/01_59_58_AM/checkpoint_05.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/01_59_58_AM/checkpoint_05.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/01_59_58_AM/checkpoint_10.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/01_59_58_AM/checkpoint_10.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/02_05_42_AM/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/02_05_42_AM/model_best.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/02_05_42_AM/model_best.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/02_55_31_AM/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/02_55_31_AM/model_best.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/02_55_31_AM/model_best.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/03_33_28_AM/model_checkpoints/keras_metadata.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/03_33_28_AM/model_checkpoints/saved_model.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/03_33_28_AM/model_checkpoints/variables/variables.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/03_33_28_AM/model_checkpoints/variables/variables.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_checkpoints/20210801/03_45_56_AM/config.json" afterDir="false" />
+    <list default="true" id="6d7f6283-066d-4243-a676-4bdd37814030" name="Default Changelist" comment="Week 4 scripts">
+      <change afterPath="$PROJECT_DIR$/Week4/4.7 Assignment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/3.3 Batch normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3/3.3 Batch normalization.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627249751007</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Week 4 scripts">
+      <created>1627784013093</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1627784013146</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -343,6 +329,7 @@
     <MESSAGE value="Refactoring folder names to match course syllabus" />
     <MESSAGE value="Saving and loading weights intro" />
     <MESSAGE value="Refactoring methods to be in line with the Python coding style" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring methods to be in line with the Python coding style" />
+    <MESSAGE value="Week 4 scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 4 scripts" />
   </component>
 </project>
