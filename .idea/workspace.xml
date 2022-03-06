@@ -4,59 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7f6283-066d-4243-a676-4bdd37814030" name="Default Changelist" comment="Assignment week 4">
-      <change afterPath="$PROJECT_DIR$/Customizing your models with Tensorflow 2/Week1/1.1 Multiple inputs and outputs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Customizing your models with Tensorflow 2/Week1/data/diagnosis.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Customizing your models with Tensorflow 2/Week1/data/diagnosis.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TensorFlow_Tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TensorFlow_Tutorial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/2.1 Sequential Model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/2.2 Building a sequential model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/2.3 Convolutional and pooling layers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/2.4 Compile method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/2.5 Fit method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/2.6 Evaluate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/2.7 Assignment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/3.1 Validation sets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/3.2 Model regularisation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/3.3 Batch normalization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/3.4 Callbacks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/3.5 Logs dictionary.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/3.6 Early stopping and patience.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/3.7 Additional callbacks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/3.8 Assignment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/4.1 Saving and loading weights.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/4.2 Model saving criteria.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/4.3 Saving entire model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/4.4 Saving model architecture only.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/4.5 Loading pre-trained Keras models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/4.6 Tensorflow Hub.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/4.7 Assignment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210725/11_40_22_PM/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210725/11_40_22_PM/checkpoint.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210725/11_40_22_PM/checkpoint.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210725/11_42_06_PM/checkpoint.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/01_59_58_AM/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/01_59_58_AM/checkpoint_05.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/01_59_58_AM/checkpoint_05.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/01_59_58_AM/checkpoint_10.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/01_59_58_AM/checkpoint_10.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/02_05_42_AM/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/02_05_42_AM/model_best.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/02_05_42_AM/model_best.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/02_55_31_AM/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/02_55_31_AM/model_best.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/02_55_31_AM/model_best.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/03_33_28_AM/model_checkpoints/keras_metadata.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/03_33_28_AM/model_checkpoints/saved_model.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/03_33_28_AM/model_checkpoints/variables/variables.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/03_33_28_AM/model_checkpoints/variables/variables.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoints/20210801/03_45_56_AM/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results.csv" beforeDir="false" />
-    </list>
+    <list default="true" id="6d7f6283-066d-4243-a676-4bdd37814030" name="Default Changelist" comment="Assignment week 4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +52,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../quantutils" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
